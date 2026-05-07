@@ -26,6 +26,7 @@ for i in range(n):
     y2 = max(coords[3], end_y)
     y2 = min(y2, start_y)
 
+    # need to add sorting by y1 to prevent missing overlap count
     rect = [y2, y1]
     ys.append(rect)
 
